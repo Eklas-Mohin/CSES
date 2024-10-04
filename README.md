@@ -1,2 +1,2 @@
 # CSES
-CSES Problem Set Solution
+CSES Problems Solution
