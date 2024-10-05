@@ -1,5 +1,5 @@
 ''' author: mohin 
-    problem: non-decreasing list
+    problem: minimum moves to make a list non-decreasing
 '''
 
 def main():
