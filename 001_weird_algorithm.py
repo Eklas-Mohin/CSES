@@ -1,5 +1,5 @@
 ''' author: mohin 
-    problem: Collatz conjecture 
+    problem: collatz conjecture 
 '''
 
 def main():
