@@ -30,3 +30,4 @@ public class DistinctNumbers {
         writer.flush();
     }
 }
+
