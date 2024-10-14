@@ -1,6 +1,4 @@
-''' author: mohin 
-    problem: number spiral
-'''
+# Number Spiral
 
 def main():
     t = int(input())
