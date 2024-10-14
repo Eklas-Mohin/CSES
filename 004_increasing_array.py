@@ -1,6 +1,4 @@
-''' author: mohin 
-    problem: minimum moves to make a list non-decreasing
-'''
+# problem: minimum moves to make a list non-decreasing
 
 def main():
     n = int(input())
