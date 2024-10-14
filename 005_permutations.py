@@ -1,6 +1,4 @@
-''' author: mohin 
-    problem: abs(list[i] - list[i - 1]) > 1
-'''
+# abs(list[i] - list[i - 1]) > 1
 
 def main():
     n = int(input())
