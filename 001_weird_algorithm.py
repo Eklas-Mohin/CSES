@@ -1,11 +1,11 @@
-''' author: mohin 
-    problem: collatz conjecture 
-'''
+# Collatz Conjecture 
+# The 3 * n + 1 problem
 
 def main():
     n = int(input())
     sequence = []
-    
+
+    # Generate the Collatz sequence
     while True:
         sequence.append(str(n))
         if n == 1:
@@ -14,9 +14,8 @@ def main():
             n //= 2
         else:
             n = 3 * n + 1
-    
+
     print(' '.join(sequence))
 
 if __name__ == '__main__':
     main()
-    
