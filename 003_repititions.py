@@ -1,6 +1,4 @@
-''' author: mohin 
-    problem: maximum repetitions of consecutive characters
-'''
+# maximum repetitions of consecutive characters
 
 def main():
     st = input()
