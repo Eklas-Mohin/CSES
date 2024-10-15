@@ -5,18 +5,18 @@ import java.io.PrintWriter;
 
 public class WeirdAlgorithm {
 
-    public static String collatzConjecture(int n) {
+    public static String collatzConjecture(long n) {
         String collatzSequence = "";
 
         while (n > 1) {
-            collatzSequence += Integer.toString(n) + ' ';
+            collatzSequence += Long.toString(n) + ' ';
             if (n % 2 == 0) {
                 n = n / 2;
             } else {
                 n = 3 * n + 1;
             }
         }
-        collatzSequence += Integer.toString(n);
+        collatzSequence += Long.toString(n);
 
         return collatzSequence;
     }
@@ -25,7 +25,7 @@ public class WeirdAlgorithm {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter writer = new PrintWriter(System.out);
 
-        int n = Integer.parseInt(reader.readLine());
+        long n = Long.parseLong(reader.readLine());
         String collatzSequence = collatzConjecture(n);
         writer.println(collatzSequence);
 
