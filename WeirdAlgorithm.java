@@ -7,7 +7,6 @@ public class WeirdAlgorithm {
 
     public static String collatzConjecture(long n) {
         StringBuilder collatzSequence = new StringBuilder();
-
         while (n > 1) {
             collatzSequence.append(n).append(' ');
             if (n % 2 == 0) {
@@ -17,9 +16,9 @@ public class WeirdAlgorithm {
             }
         }
         collatzSequence.append(n);
-        
         return collatzSequence.toString();
     }
+
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter writer = new PrintWriter(System.out);
@@ -27,11 +26,11 @@ public class WeirdAlgorithm {
         long n = Long.parseLong(reader.readLine());
         String collatzSequence = collatzConjecture(n);
         writer.println(collatzSequence);
-
+        
         writer.flush();
     }
 }
-                          
+
 /*************************** Alternative Solutions ******************************                                                
 
 import java.io.IOException;
@@ -43,7 +42,6 @@ public class WeirdAlgorithm {
 
     public static String collatzConjecture(long n) {
         String collatzSequence = "";
-
         while (n > 1) {
             collatzSequence += Long.toString(n) + ' ';
             if (n % 2 == 0) {
@@ -53,7 +51,6 @@ public class WeirdAlgorithm {
             }
         }
         collatzSequence += Long.toString(n);
-
         return collatzSequence;
     }
 
@@ -78,7 +75,6 @@ public class WeirdAlgorithm {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int n = sc.nextInt();
-
             while (n > 1) {
                 System.out.print(n + ' ');
             }
