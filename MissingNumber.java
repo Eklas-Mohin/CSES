@@ -10,7 +10,7 @@ public class MissingNumber {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter writer = new PrintWriter(System.out);
 
-        int n = Integer.parseInt(reader.readLine());
+        long n = Long.parseLong(reader.readLine());
         String[] numList = reader.readLine().split(" ");
         long sum = 0;
 
